@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <section id="form">
+            <h1>Welcome To our Form</h1>
+            <form class="form">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="Phone">Your Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+                <fieldset class="fruits">
+                    <legend>Pick One Fruits </legend>
+                    <label for="apple">Apple
+                        <input type="radio" name="fruits" id="apple">
+                    </label>
+                    <label for="orange">Orange
+                        <input type="radio" name="fruits" id="orange">
+                    </label>
+                    <label for="banana">Banana
+                        <input type="radio" name="fruits" id="banana">
+                    </label>
+                </fieldset>
+                <fieldset class="place">
+                    <legend>Pick Place</legend>
+                    <label for="bangladesh">Bangladesh
+                        <input type="checkbox" name="place" id="bangladesh">
+                    </label>
+                    <label for="canada">Canada
+                        <input type="checkbox" name="place" id="canada">
+                    </label>
+                    <label for="japan">Japan
+                        <input type="checkbox" name="place" id="japan">
+                    </label>
+                </fieldset>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="60" rows="5"></textarea>
+                <input type="submit" id="submit" value="Order Now">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
